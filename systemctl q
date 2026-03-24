@@ -1,0 +1,8 @@
+[0;1;32m●[0m postgresql.service - PostgreSQL RDBMS
+     Loaded: loaded (]8;;file://moosk-Pav/usr/lib/systemd/system/postgresql.service/usr/lib/systemd/system/postgresql.service]8;;; [0;1;32menabled[0m; preset: [0;1;32menabled[0m)
+     Active: [0;1;32mactive (exited)[0m since Wed 2026-03-25 01:19:24 IST; 1h 10min ago
+   Main PID: 40545 (code=exited, status=0/SUCCESS)
+        CPU: 6ms
+
+Mar 25 01:19:24 moosk-Pav systemd[1]: Starting postgresql.service - PostgreSQL RDBMS...
+Mar 25 01:19:24 moosk-Pav systemd[1]: Finished postgresql.service - PostgreSQL RDBMS.
