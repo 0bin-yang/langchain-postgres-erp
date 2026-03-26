@@ -3,7 +3,7 @@ from db_setup import get_engine
 
 def load_and_prepare_data():
     # --- Load CSV ---
-    df = pd.read_csv("~/build_dir/langchainPostgresql-project/History/DDFO.csv")
+    df = pd.read_csv("{~/PARENT/FOLDER/TO/YOUR/DATASET/you_dataset.csv}")
 
     print("🔹 Raw Columns:")
     print(df.columns)
