@@ -40,7 +40,7 @@ def draft_purchase_order(item_name: str, qty: float, unit_cost: float,
         "expected_delivery": (datetime.utcnow() + timedelta(days=lead_time_days)).date().isoformat(),
     }
 
-    # Persist to DB
+    # Persist to DB --
     engine = get_engine()
     with engine.begin() as conn:
         conn.execute(text("""
