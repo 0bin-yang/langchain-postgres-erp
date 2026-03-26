@@ -12,3 +12,4 @@ langchain-openai
 langchainhub
 python-dotenv
 requests
+/*you are free to add according to your desire if you wish to copy and edit*/
