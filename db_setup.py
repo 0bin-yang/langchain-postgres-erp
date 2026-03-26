@@ -5,7 +5,6 @@ from dotenv import load_dotenv
 # Load environment variables from .env
 load_dotenv(dotenv_path=".env")
 
-# Read environment variables correctly
 DB_PARAMS = {
     "host": os.getenv("DB_HOST"),
     "database": os.getenv("DB_NAME"),
