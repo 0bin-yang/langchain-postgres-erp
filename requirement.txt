@@ -1,10 +1,14 @@
 streamlit
 pandas
+numpy
 sqlalchemy
 psycopg2-binary
 asyncpg
 plotly
+prophet
 langchain
 langchain-community
 langchain-openai
+langchainhub
 python-dotenv
+requests
